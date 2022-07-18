@@ -1,9 +1,10 @@
 ![banner](Assets/banner.png)
 ![Type of ML](https://img.shields.io/badge/Type%20of%20ML-Random%20Forrest-orange)
 ![Python version](https://img.shields.io/badge/Python%20version-3.10%2B-lightgrey)
-![Licebse](https://img.shields.io/badge/License-MIT-green)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-## Authors
+## Key Lessons
+- Using OOP code to clean data. 
 
 [@mzkhan98](https://github.com/mzkhan98)
 
@@ -13,13 +14,21 @@
 When deciding whether to buy a plane ticket or wait to see if the price will decrease is a key factor of consideration when buying a plane ticket. 
 
 ## Methods
-- Data Cleaning
+- Data Cleaning & Feature Engineering 
 - Exploratory data analysis
-- Feature Engineering and Selection
-
+- ML model creation and evaluation
 
 ## Tech Stack
--Python{Pandas, Numpy, Matplotlib, Seaborn, ScikitLearn,Plotly, Cufflinks}
+- Python{Pandas, Numpy, Matplotlib, Seaborn, ScikitLearn,Plotly, Cufflinks}
+
+## Walk Through Of Project
+The first step of the product was to clean the data, the following methods were used:
+#### Date Cleaning
+- Invalid data points were removed using pandas. 
+- Functions to featurise duration, arrival and departure time
+- Feature encoding used for flight locations,airlines,stops.
+
+
 
 ## Contribution
 
