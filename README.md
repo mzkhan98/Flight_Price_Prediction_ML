@@ -13,13 +13,13 @@
 When deciding whether to buy a plane ticket or wait to see if the price will decrease is a key factor of consideration when buying a plane ticket. 
 
 ## Methods
--Data Cleaning
--Exploratory data analysis
--Feature Engineering and Selection
+- Data Cleaning
+- Exploratory data analysis
+- Feature Engineering and Selection
 
 
 ## Tech Stack
--Python{Pandas, Numpy, Matplotlib, Seaborn, ScikitLearn}
+-Python{Pandas, Numpy, Matplotlib, Seaborn, ScikitLearn,Plotly, Cufflinks}
 
 ## Contribution
 
