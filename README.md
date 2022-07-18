@@ -28,6 +28,12 @@ The first step of the product was to clean the data, the following methods were 
 - Functions to featurise duration, arrival and departure time
 - Feature encoding used for flight locations,airlines,stops.
 
+Outlier detection using seaborn library to visualize the distribution of the price data. Values above Rs.35,000 replaced with the median value to allow for a more accurate distribution.
+
+![Price Distribution Before](Assets/outlier_detection_before.png)
+![Price Distribution After ](Assets/outlier_detection_after.png)
+
+
 
 
 ## Contribution
