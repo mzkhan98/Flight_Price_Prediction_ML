@@ -23,18 +23,22 @@ When deciding whether to buy a plane ticket or wait to see if the price will dec
 
 ## Walk Through Of Project
 The first step of the product was to clean the data, the following methods were used:
-#### Date Cleaning
+#### Date Cleaning & Feature Engineering
 - Invalid data points were removed using pandas. 
 - Functions to featurise duration, arrival and departure time
 - Feature encoding used for flight locations,airlines,stops.
 
 Outlier detection using seaborn library to visualize the distribution of the price data. Values above Rs.35,000 replaced with the median value to allow for a more accurate distribution.
 
-![Price Distribution Before](Assets/outlier_detection_before.png)
-![Price Distribution After ](Assets/outlier_detection_after.png)
+![Price Distribution Before](Assets/output1.png)
+![Price Distribution After ](Assets/output2.png)
 
 
-
+#### Exploratory Data Analysis 
+Exploring the data we see all airlines have similar prices, other than JetAirways Business class.
+![Price vs Airlines](Assets/Pricevsairlines.png)
+Additionally, location also has very liitle impact on on the price, however, there are many outliers in flights from Banglore, this is since the majority of Jet Airways business class flights are from Banglore. 
+![Price vs Location](Assets/pricevsloc.png)
 
 ## Contribution
 
