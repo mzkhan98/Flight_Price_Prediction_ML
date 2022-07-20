@@ -31,14 +31,28 @@ The first step of the product was to clean the data, the following methods were 
 Outlier detection using seaborn library to visualize the distribution of the price data. Values above Rs.35,000 replaced with the median value to allow for a more accurate distribution.
 
 ![Price Distribution Before](Assets/output1.png)
+
+
 ![Price Distribution After ](Assets/output2.png)
 
 
 #### Exploratory Data Analysis 
 Exploring the data we see all airlines have similar prices, other than JetAirways Business class.
 ![Price vs Airlines](Assets/Pricevsairlines.png)
-Additionally, location also has very liitle impact on on the price, however, there are many outliers in flights from Banglore, this is since the majority of Jet Airways business class flights are from Banglore. 
+
+Additionally, location also has very liitle impact on on the price, however, there are many outliers in flights from Banglore, this is since the majority of Jet Airways business class flights are from Banglore.
+
+
 ![Price vs Location](Assets/pricevsloc.png)
+
+Analysing the heat map of correlation between features and price, we note that price is highly correlated to total stops, airlines and destination. 
+
+![Heat Map](Assets/heatmap.png)
+
+![Price vs Stops](Assets/pricevsstops.png)
+
+#### Model Creation and Deployment 
+
 
 ## Contribution
 
