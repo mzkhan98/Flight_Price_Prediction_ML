@@ -51,8 +51,8 @@ Analysing the heat map of correlation between features and price, we note that p
 
 ![Price vs Stops](Assets/pricevsstops.png)
 
-#### Model Creation and Deployment 
-
+#### Model Creation and Hyperparameter tuning 
+Random Forrest Model is selected and hypertuned for the following parameters n_estimators, max_features,max_depth,  min_samples_split,min_samples_leaf. Optimum parameters are then used to enhance the model. 
 
 ## Contribution
 
